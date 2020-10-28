@@ -1,0 +1,36 @@
+// !font-family
+$font-family_kau: 'Kaushan Script', cursive;
+$font-family_mon: 'Montserrat', sans-serif;
+$ff-r: 'Roboto', sans-serif;
+
+// !light color
+$white__c: #fff;
+$yellow__c: #fce38a;
+$light-yellow__c: #f7eac4;
+$red__c: #f38181;
+$birch_c: #95e1d3;
+// !light color
+
+// !dark color
+$black__c: #333333;
+$grey_c: #c0c0c0;
+
+// !dark color
+
+// !font size
+@mixin font_size-normal {
+    font-size: 14px;
+}
+@mixin font_size-big{
+    font-size: 30px;
+}
+@mixin font_size-v_big{
+    font-size: 72px;
+}
+
+
+
+@mixin fw__b{
+    font-weight: bold;
+}
+// !font size
